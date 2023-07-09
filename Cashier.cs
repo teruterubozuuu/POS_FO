@@ -11,7 +11,7 @@ using MySql.Data.MySqlClient;
 using POS_FO.UserControls;
 
 namespace POS_FO
-{ 
+{
     public partial class Cashier : Form
     {
         public Cashier()
@@ -107,7 +107,7 @@ namespace POS_FO
 
         private void label2_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -175,6 +175,11 @@ namespace POS_FO
             paymentPage1.Controls.Clear();
             Categories categories = new Categories();
             paymentPage1.Controls.Add(categories);
+
+        }
+
+        private void Cashier_Load_1(object sender, EventArgs e)
+        {
 
         }
     }
