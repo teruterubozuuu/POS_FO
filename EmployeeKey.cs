@@ -106,4 +106,4 @@ namespace POS_FO
 }
 
 //Hi Hello How are you?
-
+// bakit malungkot and beshy q
