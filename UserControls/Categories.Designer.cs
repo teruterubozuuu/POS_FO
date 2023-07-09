@@ -28,162 +28,169 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            button4 = new Button();
+            button5 = new Button();
+            button6 = new Button();
+            button7 = new Button();
+            button8 = new Button();
+            button9 = new Button();
+            SuspendLayout();
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(143)))), ((int)(((byte)(105)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Nirmala UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(22, 51);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(145, 75);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Dairy";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            button1.BackColor = Color.FromArgb(125, 143, 105);
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Nirmala UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(22, 51);
+            button1.Name = "button1";
+            button1.Size = new Size(145, 75);
+            button1.TabIndex = 0;
+            button1.Text = "Dairy";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(143)))), ((int)(((byte)(105)))));
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Nirmala UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(207, 51);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(145, 75);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Drinks";
-            this.button2.UseVisualStyleBackColor = false;
+            button2.BackColor = Color.FromArgb(125, 143, 105);
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Nirmala UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(207, 51);
+            button2.Name = "button2";
+            button2.Size = new Size(145, 75);
+            button2.TabIndex = 1;
+            button2.Text = "Drinks";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(143)))), ((int)(((byte)(105)))));
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Nirmala UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(390, 51);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(145, 75);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Fruits";
-            this.button3.UseVisualStyleBackColor = false;
+            button3.BackColor = Color.FromArgb(125, 143, 105);
+            button3.FlatAppearance.BorderSize = 0;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Font = new Font("Nirmala UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            button3.ForeColor = Color.White;
+            button3.Location = new Point(390, 51);
+            button3.Name = "button3";
+            button3.Size = new Size(145, 75);
+            button3.TabIndex = 2;
+            button3.Text = "Fruits";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(143)))), ((int)(((byte)(105)))));
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Nirmala UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(22, 161);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(145, 75);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Meat";
-            this.button4.UseVisualStyleBackColor = false;
+            button4.BackColor = Color.FromArgb(125, 143, 105);
+            button4.FlatAppearance.BorderSize = 0;
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.Font = new Font("Nirmala UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            button4.ForeColor = Color.White;
+            button4.Location = new Point(22, 161);
+            button4.Name = "button4";
+            button4.Size = new Size(145, 75);
+            button4.TabIndex = 3;
+            button4.Text = "Meat";
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(143)))), ((int)(((byte)(105)))));
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Nirmala UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(207, 161);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(145, 75);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Snacks";
-            this.button5.UseVisualStyleBackColor = false;
+            button5.BackColor = Color.FromArgb(125, 143, 105);
+            button5.FlatAppearance.BorderSize = 0;
+            button5.FlatStyle = FlatStyle.Flat;
+            button5.Font = new Font("Nirmala UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            button5.ForeColor = Color.White;
+            button5.Location = new Point(207, 161);
+            button5.Name = "button5";
+            button5.Size = new Size(145, 75);
+            button5.TabIndex = 4;
+            button5.Text = "Snacks";
+            button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(143)))), ((int)(((byte)(105)))));
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Nirmala UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(390, 161);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(145, 75);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Vegetables";
-            this.button6.UseVisualStyleBackColor = false;
+            button6.BackColor = Color.FromArgb(125, 143, 105);
+            button6.FlatAppearance.BorderSize = 0;
+            button6.FlatStyle = FlatStyle.Flat;
+            button6.Font = new Font("Nirmala UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            button6.ForeColor = Color.White;
+            button6.Location = new Point(390, 161);
+            button6.Name = "button6";
+            button6.Size = new Size(145, 75);
+            button6.TabIndex = 5;
+            button6.Text = "Vegetables";
+            button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click;
             // 
             // button7
             // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(143)))), ((int)(((byte)(105)))));
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Nirmala UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(22, 269);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(145, 75);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "button7";
-            this.button7.UseVisualStyleBackColor = false;
+            button7.BackColor = Color.FromArgb(125, 143, 105);
+            button7.FlatAppearance.BorderSize = 0;
+            button7.FlatStyle = FlatStyle.Flat;
+            button7.Font = new Font("Nirmala UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            button7.ForeColor = Color.White;
+            button7.Location = new Point(22, 269);
+            button7.Name = "button7";
+            button7.Size = new Size(145, 75);
+            button7.TabIndex = 6;
+            button7.Text = "Seafood";
+            button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
             // 
             // button8
             // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(143)))), ((int)(((byte)(105)))));
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Nirmala UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(207, 269);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(145, 75);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = false;
+            button8.BackColor = Color.FromArgb(125, 143, 105);
+            button8.FlatAppearance.BorderSize = 0;
+            button8.FlatStyle = FlatStyle.Flat;
+            button8.Font = new Font("Nirmala UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            button8.ForeColor = Color.White;
+            button8.Location = new Point(207, 269);
+            button8.Name = "button8";
+            button8.Size = new Size(145, 75);
+            button8.TabIndex = 7;
+            button8.Text = "Condiments";
+            button8.UseVisualStyleBackColor = false;
+            button8.Click += button8_Click;
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(143)))), ((int)(((byte)(105)))));
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Nirmala UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(390, 269);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(145, 75);
-            this.button9.TabIndex = 8;
-            this.button9.Text = "button9";
-            this.button9.UseVisualStyleBackColor = false;
+            button9.BackColor = Color.FromArgb(125, 143, 105);
+            button9.FlatAppearance.BorderSize = 0;
+            button9.FlatStyle = FlatStyle.Flat;
+            button9.Font = new Font("Nirmala UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            button9.ForeColor = Color.White;
+            button9.Location = new Point(390, 269);
+            button9.Name = "button9";
+            button9.Size = new Size(145, 75);
+            button9.TabIndex = 8;
+            button9.Text = "Oil";
+            button9.UseVisualStyleBackColor = false;
+            button9.Click += button9_Click;
             // 
             // Categories
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Name = "Categories";
-            this.Size = new System.Drawing.Size(559, 396);
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(button9);
+            Controls.Add(button8);
+            Controls.Add(button7);
+            Controls.Add(button6);
+            Controls.Add(button5);
+            Controls.Add(button4);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Name = "Categories";
+            Size = new Size(559, 396);
+            ResumeLayout(false);
         }
 
         #endregion

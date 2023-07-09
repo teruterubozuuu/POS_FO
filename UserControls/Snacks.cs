@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace POS_FO.UserControls
 {
-    public partial class Dairy : UserControl
+    public partial class Snacks : UserControl
     {
-        public Dairy()
+        public Snacks()
         {
             InitializeComponent();
-        }
-
-        private void milkLabel_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

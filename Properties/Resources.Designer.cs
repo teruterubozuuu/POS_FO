@@ -63,6 +63,16 @@ namespace POS_FO.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _634c84b4931888d1cab6e956d99f924a {
+            get {
+                object obj = ResourceManager.GetObject("634c84b4931888d1cab6e956d99f924a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap search_13_16 {
             get {
                 object obj = ResourceManager.GetObject("search-13-16", resourceCulture);
