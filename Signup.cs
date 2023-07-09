@@ -67,6 +67,7 @@ namespace POS_FO
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //comment
             EmployeeKey key = new EmployeeKey();
             key.Show();
             this.Hide();
