@@ -16,5 +16,23 @@ namespace POS_FO.UserControls
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            CreditDebit creditdebit = new CreditDebit();
+            creditdebit.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Cash cash = new Cash();
+            cash.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MobileWallet mobileWallet = new MobileWallet();
+            mobileWallet.Show();
+        }
     }
 }
